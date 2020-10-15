@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WKWebViewRTC'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'WebRTC library for WKWebView for Swift on iOS'
 
 # This description is used to generate tags and improve search results.
@@ -39,5 +39,5 @@ Pod::Spec.new do |s|
 
 #   s.public_header_files = 'Pod/Classes/**/*.h'
 #   s.frameworks = 'AVFoundation'
-   s.dependency 'GoogleWebRTC', '1.1.29229'
+   s.dependency 'WebRTCCustom-Bitcode', '~> 1.1.29401'
 end
